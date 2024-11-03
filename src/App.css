@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+}
+.table th,
+.table td {
+  width: 600px; /* Set max width to control column size */
+  overflow: hidden; /* Prevent overflow within cells */
+  text-overflow: ellipsis; /* Show ellipsis for overflowed text */
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+.table {
+  table-layout: auto; /* or use fixed */
+  width: 100%; /* Ensure table takes full width of its container */
+}
+
+.table-container {
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+header {
+  z-index: 999 !important;
+}
